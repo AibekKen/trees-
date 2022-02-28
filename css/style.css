@@ -330,6 +330,10 @@ html {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
+
+  .header__burger.active {
+    background-color: transparent;
+  }
 }
 .ibg {
   background-position: center;
