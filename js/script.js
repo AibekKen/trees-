@@ -115,4 +115,3 @@ setInterval(plusSlides, 15000, +1)
 
 
 
-
