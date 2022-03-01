@@ -537,6 +537,30 @@ a {
 }
 
 //================
+.type {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   justify-content: center;
+}
+
+.type span {
+   display: inline-block;
+}
+.type__image {
+   position: relative;
+   height: 50px;
+   width: 50px;
+   margin-right: 10px;
+}
+
+.type__text {
+   line-height: 50px;
+   font-weight: 700;
+   color: #000;
+}
 
 .payment {
    padding: 50px 0;
@@ -568,7 +592,6 @@ a {
    }
 
    &__type {
-      font-weight: 700;
       background-color: #18df33;
       margin: 0 auto;
       width: 220px;
@@ -581,31 +604,6 @@ a {
       transform: scale(1.2);
    }
 }
-.type {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-align: center;
-   -ms-flex-align: center;
-   justify-content: center;
-}
-
-.type span {
-   display: inline-block;
-}
-.type__image {
-   position: relative;
-   height: 50px;
-   width: 50px;
-   margin-right: 10px;
-}
-
-.type__text {
-   line-height: 50px;
-   font-size: var(--fontsize4);
-   color: #000;
-}
-
 .wa-img {
    margin-right: 5px;
 }
