@@ -110,7 +110,7 @@ function showSlides(n) {
    slides[slideIndex - 1].style.display = "block";
 }
 
-setInterval(plusSlides, 15000, +1)
+setInterval(plusSlides, 2000, +1)
 
 
 
